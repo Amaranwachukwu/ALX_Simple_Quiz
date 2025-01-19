@@ -20,3 +20,4 @@ if (userAnswer === correctAnswer) {
         feedbackElement.style.color = "red";
     }
 
+document.getElementById("submit-answer").addEventListener("click", checkAnswer);
